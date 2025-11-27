@@ -1,0 +1,11 @@
+#N canvas 34 291 632 300 12;
+#X declare -lib aoo;
+#X obj 79 83 inlet;
+#X obj 287 22 declare -lib aoo;
+#X obj 68 182 outlet;
+#X obj 155 182 outlet;
+#X obj 210 37 inlet;
+#X obj 210 61 route port_no;
+#X msg 269 100 \; pd-UoG_aoo_client.pd obj 100 120 aoo_client \$1 \; pd-UoG_aoo_client.pd connect 0 0 7 0 \; pd-UoG_aoo_client.pd connect 7 0 2 0 \; pd-UoG_aoo_client.pd connect 7 1 3 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;

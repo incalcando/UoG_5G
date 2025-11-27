@@ -1,0 +1,14 @@
+#N canvas 372 474 515 357 12;
+#X declare -lib aoo;
+#X obj 266 57 declare -lib aoo;
+#X msg 73 152 relay \$1;
+#X floatatom 56 217 5 0 0 0 - - - 0;
+#X obj 72 122 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 56 240 outlet;
+#X obj 56 193 aoo_server \$1;
+#X obj 158 227 print \$1_server;
+#X connect 1 0 5 0;
+#X connect 2 0 4 0;
+#X connect 3 0 1 0;
+#X connect 5 0 2 0;
+#X connect 5 1 6 0;
