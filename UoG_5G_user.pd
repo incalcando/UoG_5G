@@ -34,7 +34,7 @@
 #X listbox 523 304 20 0 0 0 - - - 0;
 #X obj 523 252 route mesg_5g;
 #X obj 523 276 list;
-#N canvas 367 483 450 300 parsing_received_osc_messages 1;
+#N canvas 367 483 450 300 parsing_received_osc_messages 0;
 #X obj 30 17 r \$0_from_client;
 #X obj 30 41 route msg, f 36;
 #X obj 69 106 list trim;
