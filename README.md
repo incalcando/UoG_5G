@@ -2,6 +2,7 @@ Required libaries for Pd:
 
 - aoo
 - osc
+- hcs
 
 best to load from Deken
 
