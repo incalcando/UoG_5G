@@ -29,26 +29,26 @@ text transmission did not seem to work from mac to pi.
 transfer test using iperf3
 
 on Linux (raspbian):
-sudo apt update
-sudo apt install iperf3
+<code>sudo apt update
+sudo apt install iperf3</code>
 
 on macOS:
-brew install iperf3
+<code>brew install iperf3</code>
 
 run 
 <code>iperf3 -s </code>
 on one and
-iperf3 -c <pi-ip-address> -t 10
+<code>iperf3 -c <pi-ip-address> -t 10</code>
 
 or better for udp simulation: (udo -u)
-iperf3 -c <pi-ip-address> -u -b 20M
+<code>iperf3 -c <pi-ip-address> -u -b 20M</code>
 
 
 
 
 
-  used networkquality -v in terminal to measure G5 speed when connecting to access point in Uni:
-  networkquality -v
+  used <code>networkquality -v</code> in terminal to measure G5 speed when connecting to access point in Uni:
+  <code>networkquality -v</code>
 
 results need proper checking, but numbers should suggest that speed should be fine for 11/12 stereo channels of audio.
   
