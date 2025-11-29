@@ -26,6 +26,27 @@ text transmission did not seem to work from mac to pi.
   - text transmission required to 'publish' available track names/content for connected peers to choose from.
 
 
+transfer test using iperf3
+
+on Linux (raspbian):
+sudo apt update
+sudo apt install iperf3
+
+on macOS:
+brew install iperf3
+
+run 
+<code>iperf3 -s </code>
+on one and
+iperf3 -c <pi-ip-address> -t 10
+
+or better for udp simulation: (udo -u)
+iperf3 -c <pi-ip-address> -u -b 20M
+
+
+
+
+
   used networkquality -v in terminal to measure G5 speed when connecting to access point in Uni:
   networkquality -v
 
