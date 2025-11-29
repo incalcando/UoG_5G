@@ -38,10 +38,10 @@ on macOS:
 run 
 <code>iperf3 -s </code>
 on one and
-<code>iperf3 -c <pi-ip-address> -t 10</code>
+<code>iperf3 -c \<pi-ip-address> -t 10</code>
 
 or better for udp simulation: (udo -u)
-<code>iperf3 -c <pi-ip-address> -u -b 20M</code>
+<code>iperf3 -c \<pi-ip-address> -u -b 20M</code>
 
 
 
