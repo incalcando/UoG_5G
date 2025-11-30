@@ -23,6 +23,10 @@ text transmission did not seem to work from mac to pi.
   TODO:
 
   - automatic port association dependent on no of users/peers and audio streams.
+    - change port numbers to allow systematic assignment (and therefore numbers that could also presume to help trouble shooting?)
+    - aoo_server for UoG_5G opened on aoopi Raspberry Pi 5: 50001
+    - a00_client for UoG_5G users: 600UU (UU = 01 for user1, UU = 02 for user2 etc.: user1: 60001, user2: 60002)
+    - aoo_send~ audio sources from users: 
   - text transmission required to 'publish' available track names/content for connected peers to choose from.
 
 
