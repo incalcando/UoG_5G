@@ -1,8 +1,8 @@
 #N canvas 207 627 536 310 12;
 #X declare -lib aoo;
 #X declare -lib osc;
-#X obj 46 73 UoG_aoo_server 9111;
 #X floatatom 46 97 5 0 0 0 - - - 0;
 #X obj 324 31 declare -lib aoo;
 #X obj 324 59 declare -lib osc;
-#X connect 0 0 1 0;
+#X obj 46 73 UoG_aoo_server 50000;
+#X connect 3 0 0 0;
